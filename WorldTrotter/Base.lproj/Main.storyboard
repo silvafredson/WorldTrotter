@@ -8,33 +8,33 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Item 2-->
+        <!--Map-->
         <scene sceneID="XMb-pd-pVq">
             <objects>
-                <viewController id="cOZ-hu-zDU" sceneMemberID="viewController">
+                <viewController id="cOZ-hu-zDU" customClass="MapViewController" customModule="WorldTrotter" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="YaG-Di-B7M">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="K24-I9-oyz"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 2" id="us0-JD-5b5"/>
+                    <tabBarItem key="tabBarItem" title="Map" image="MapIcon" id="us0-JD-5b5"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Xpa-Bi-4b2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="816" y="112"/>
+            <point key="canvasLocation" x="815" y="158"/>
         </scene>
-        <!--Item 1-->
+        <!--Converter-->
         <scene sceneID="zeF-AY-l1B">
             <objects>
-                <viewController id="qm7-kv-jGw" sceneMemberID="viewController">
+                <viewController id="qm7-kv-jGw" customClass="ConverterViewController" customModule="WorldTrotter" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="cFo-6W-eAl">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="rwL-XO-VH8"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 1" id="x95-E1-hqZ"/>
+                    <tabBarItem key="tabBarItem" title="Converter" image="ConvertIcon" id="x95-E1-hqZ"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iV9-UP-QTt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -60,6 +60,8 @@
         </scene>
     </scenes>
     <resources>
+        <image name="ConvertIcon" width="48.333332061767578" height="32.333332061767578"/>
+        <image name="MapIcon" width="48.333332061767578" height="32.333332061767578"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
